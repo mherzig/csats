@@ -33,7 +33,7 @@ cd ./hash
 npm i
 node index.js -c7 677842960118            # => gleeful
 node index.js -c9 934605031880300         # => leapfrogs
-node index.js -c11 1317985395605002507    # => (no valid input string found)
+node index.js -c11 1317985395605002507    # => westernista
 
 # run tests
 npm run test

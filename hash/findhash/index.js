@@ -17,7 +17,7 @@ module.exports = (hashed, numChars) => {
   while (inputStr.length < numChars) {
     current = 0
 
-    while (hashFunc(buildTestString()) <= hashed && current < letters.length - 1) {
+    while (current < letters.length && hashFunc(buildTestString()) <= hashed) {
       current++
     }
 
